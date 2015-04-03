@@ -5,7 +5,7 @@ var commons = {};
 
 readdirSync('./lib').forEach(function (filename) {
 	var name = basename(filename, '.js');
-	commons[name] = require('./lib/' + filename);
+	commons[name] = require(__dirname + '/lib/' + name);
 });
 
 module.exports = commons;
