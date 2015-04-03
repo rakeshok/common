@@ -1,11 +1,11 @@
-import { readdirSync } from 'fs';
-import { basename } from 'path';
+var readdirSync = require('fs').readdirSync;
+var basename = require('path').basename;
 
-let commons = {};
+var commons = {};
 
-readdirSync('./lib').forEach((filename) =>{
-	let name = basename(filename, '.js');
-	commons[name] = require(`./lib/${filename}`);
+readdirSync('./lib').forEach(function (filename) {
+	var name = basename(filename, '.js');
+	commons[name] = require('./lib/' + filename);
 });
 
-export default commons;
+module.exports = commons;
