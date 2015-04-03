@@ -3,10 +3,9 @@ import { expect } from 'chai';
 
 describe('common', () => {
 	it('require', () => {
-    expect(common.addApostrophe).exist;
-    expect(common.buildCommunityKey).exist;
-    expect(common.buildObject).exist;
-    // ...
+		expect(common.addApostrophe).exist;
+		expect(common.buildCommunityKey).exist;
+		expect(common.buildObject).exist;
 	});
 
 	it('capitalize', () => {
