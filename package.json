@@ -1,0 +1,27 @@
+{
+  "name": "common",
+  "version": "0.0.1",
+  "description": "Common utilities",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CareerDean/common.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CareerDean/common/issues"
+  },
+  "homepage": "https://github.com/CareerDean/common",
+  "dependencies": {
+    "cookies": "^0.5.0",
+    "keygrip": "^1.0.1",
+    "lodash": "^3.6.0",
+    "striptags": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0"
+  }
+}
