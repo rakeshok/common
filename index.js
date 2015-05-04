@@ -4,7 +4,6 @@ exports.buildCommunityKey   = require('./lib/buildCommunityKey');
 exports.buildObject         = require('./lib/buildObject');
 exports.capitalize          = require('./lib/capitalize');
 exports.compactObject       = require('./lib/compactObject');
-exports.cutPath             = require('./lib/cutPath');
 exports.deep                = require('./lib/deep');
 exports.easingPattern       = require('./lib/easingPattern');
 exports.emailRegex          = require('./lib/emailRegex');
