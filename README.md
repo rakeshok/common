@@ -64,3 +64,9 @@ The list of functions is as follows:
 - urlRegex
 - objectIdRegex
 
+
+## Authors
+
+- David Oliveros ([d-oliveros](https://github.com/d-oliveros))
+- Antonio Sandoval ([archr](https://github.com/archr))
+- Alejandro Cavazos ([alexkvazos](https://github.com/alexkvazos))
