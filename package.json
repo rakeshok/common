@@ -1,11 +1,11 @@
 {
   "name": "common",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Common utilities",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --compilers js:babel/register"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
