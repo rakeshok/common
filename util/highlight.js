@@ -1,5 +1,5 @@
 var difference = require('lodash').difference;
-var stopwords = require('./stopwordsAll');
+var stopwords = require('../stopwords/stopwordsAll');
 
 function highlight(text, string) {
 	var words, phrase;

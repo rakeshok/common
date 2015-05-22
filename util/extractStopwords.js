@@ -1,6 +1,6 @@
 var _ = require('lodash');
 var stripTags = require('striptags');
-var stopwordsAll = require('./stopwordsAll');
+var stopwordsAll = require('../stopwords/stopwordsAll');
 
 function extractStopwords(str, options) {
 	if(_.isEmpty(str))

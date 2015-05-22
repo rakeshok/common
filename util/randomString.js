@@ -1,4 +1,4 @@
-var capitalize = require('./capitalize');
+var capitalize = require('../util/capitalize');
 
 function randomString(words) {
 	var string = '';

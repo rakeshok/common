@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var urlRegex = require('./urlRegex');
+var urlRegex = require('../regex/urlRegex');
 
 function getHTML(text) {
 	text = text || '';

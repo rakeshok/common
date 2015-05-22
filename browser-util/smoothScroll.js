@@ -1,4 +1,4 @@
-var easingPattern = require('./easingPattern');
+var easingPattern = require('../util/easingPattern');
 
 function smoothScroll(element, options) {
 	var startLocation = window.pageYOffset;

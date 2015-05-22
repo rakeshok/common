@@ -1,4 +1,4 @@
-var objectIdRegex = require('./objectIdRegex');
+var objectIdRegex = require('../regex/objectIdRegex');
 
 function isObjectId(string) {
 	return objectIdRegex.test(string);

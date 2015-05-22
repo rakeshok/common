@@ -3,19 +3,14 @@ var common = require('../index');
 var expect = require('chai').expect;
 
 describe('common', function() {
-	it('require', function() {
+	it('should expose functions when requiring the lib', function() {
 		expect(common.addApostrophe).exist;
 		expect(common.buildCommunityKey).exist;
 		expect(common.buildObject).exist;
 	});
 
-	it('require lib', function() {
-		var capitalize = require('../lib/capitalize');
+	it('should be able to require individual functions', function() {
+		var capitalize = require('../util/capitalize');
 		expect(capitalize).exist;
-	});
-
-	it('capitalize', function() {
-		expect(common.capitalize('')).equal('');
-		expect(common.capitalize('antonio')).equal('Antonio');
 	});
 });
