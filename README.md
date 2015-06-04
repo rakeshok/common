@@ -2,7 +2,6 @@
 
 Utility functions and common data used in CareerDean. Some functions are meant to be used in the browser (With Browserify or Webpack).
 
-The list of functions is as follows:
 
 ### Utility Functions
 
