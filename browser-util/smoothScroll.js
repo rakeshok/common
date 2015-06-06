@@ -1,4 +1,5 @@
 var easingPattern = require('../util/easingPattern');
+var getTopOffset = require('./getTopOffset');
 
 function smoothScroll(element, options) {
 	var startLocation = window.pageYOffset;
@@ -14,20 +15,7 @@ function smoothScroll(element, options) {
 		cutAt = options.cutAt || null,
 		easing = options.easing || 'easeInOutQuart';
 
-	// Calculate how far to scroll
-	var getEndLocation = function (element) {
-		var location = 0;
-		if (element.offsetParent) {
-			do {
-				location += element.offsetTop;
-				element = element.offsetParent;
-			} while (element);
-		}
-		location = Math.max(location - offset, 0);
-		return location;
-	};
-
-	var endLocation = getEndLocation(element);
+	var endLocation = Math.max(getTopOffset(element) - offset, 0);
 	var distance = endLocation - startLocation;
 
 	// Stop the scrolling animation when the anchor is reached (or at the top/bottom of the page)
