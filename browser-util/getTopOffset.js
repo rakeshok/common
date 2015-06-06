@@ -1,6 +1,6 @@
 
-function getTopOffset(element) {
-	var pixels = 0;
+function getTopOffset(element, offset) {
+	var pixels = offset || 0;
 
 	if (element.offsetParent) {
 		do {
