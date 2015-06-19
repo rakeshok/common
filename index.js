@@ -49,4 +49,4 @@ exports.objectIdRegex       = require('./regex/objectIdRegex');
 exports.urlRegex            = require('./regex/urlRegex');
 
 // Configs
-exports.achievements        = require('./config/achievements');
+exports.achievementsList    = require('./config/achievementsList');
