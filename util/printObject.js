@@ -1,6 +1,6 @@
 
 function printObject(obj) {
-	return JSON.stringify(obj, null, 3);
+	return JSON.stringify(obj, null, 2);
 }
 
 module.exports = printObject;
