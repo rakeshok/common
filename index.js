@@ -22,6 +22,7 @@ exports.isURL               = require('./util/isURL');
 exports.parseJSON           = require('./util/parseJSON');
 exports.permute             = require('./util/permute');
 exports.pluralize           = require('./util/pluralize');
+exports.printObject         = require('./util/printObject');
 exports.pushUnique          = require('./util/pushUnique');
 exports.randomGarbage       = require('./util/randomGarbage');
 exports.randomString        = require('./util/randomString');
