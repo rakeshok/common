@@ -30,6 +30,7 @@ Utility functions and common data used in CareerDean. Some functions are meant t
 - parseJSON
 - permute
 - pluralize
+- printObject
 - pushUnique
 - randomGarbage
 - randomString
