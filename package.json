@@ -1,5 +1,5 @@
 {
-  "name": "careerdean-common",
+  "name": "cd-common",
   "version": "0.4.0",
   "description": "Common utilities",
   "main": "index.js",
