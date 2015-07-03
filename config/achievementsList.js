@@ -6,9 +6,10 @@ module.exports = {
 		name: 'OP Vision',
 		iconGreen: '/images/icons/rep-10.jpg',
 		iconDark: '/images/icons/rep-10-dark.jpg',
-		description: 'You get notifications when the \'Original Poster\' ' +
-		             'appreciates your answer to their question.',
-		key: 'opVision'
+		description:	'You get notifications when the \'Original Poster\' ' +
+									'appreciates your answer to their question.',
+		key: 'opVision',
+		state: 'frontpage'
 	},
 
 	boosterPack: {
@@ -16,7 +17,8 @@ module.exports = {
 		name: 'Booster Pack',
 		iconGreen: '/images/icons/rep-50.jpg',
 		iconDark: '/images/icons/rep-50-dark.jpg',
-		key: 'boosterPack'
+		key: 'boosterPack',
+		state: 'frontpage'
 	},
 
 	smartFilter: {
@@ -24,7 +26,8 @@ module.exports = {
 		name: 'Smart Filter',
 		iconGreen: '/images/icons/rep-150.jpg',
 		iconDark: '/images/icons/rep-150-dark.jpg',
-		key: 'smartFilter'
+		key: 'smartFilter',
+		state: 'user.settings'
 	},
 
 	friendlyNeighbors: {
@@ -32,7 +35,8 @@ module.exports = {
 		name: 'Friendly Neighbors',
 		iconGreen: '/images/icons/rep-150-2.jpg',
 		iconDark: '/images/icons/rep-150-2-dark.jpg',
-		key: 'friendlyNeighbors'
+		key: 'friendlyNeighbors',
+		state: 'frontpage'
 	},
 
 	beastMode: {
@@ -40,7 +44,8 @@ module.exports = {
 		name: 'Beast Mode',
 		iconGreen: '/images/icons/rep-400.jpg',
 		iconDark: '/images/icons/rep-400-dark.jpg',
-		key: 'beastMode'
+		key: 'beastMode',
+		state: 'frontpage'
 	},
 
 	tagger: {
@@ -48,7 +53,8 @@ module.exports = {
 		name: 'Tagger',
 		iconGreen: '/images/icons/rep-1k.jpg',
 		iconDark: '/images/icons/rep-1k-dark.jpg',
-		key: 'tagger'
+		key: 'tagger',
+		state: 'frontpage'
 	},
 
 	teamPlayer: {
@@ -56,7 +62,8 @@ module.exports = {
 		name: 'Team Player',
 		iconGreen: '/images/icons/rep-2k.jpg',
 		iconDark: '/images/icons/rep-2k-dark.jpg',
-		key: 'teamPlayer'
+		key: 'teamPlayer',
+		state: 'frontpage'
 	},
 
 	amaHost: {
@@ -64,7 +71,8 @@ module.exports = {
 		name: 'AMA Host',
 		iconGreen: '/images/icons/rep-4k.jpg',
 		iconDark: '/images/icons/rep-4k-dark.jpg',
-		key: 'amaHost'
+		key: 'amaHost',
+		state: 'frontpage'
 	}
 
 };
