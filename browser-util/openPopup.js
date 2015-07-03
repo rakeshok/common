@@ -1,4 +1,11 @@
 
+/**
+ * Opens a new window
+ *
+ * @param  {String}    url   The URL to open
+ * @param  {String}    title The window's title
+ * @return {Undefined}
+ */
 function openPopup(url, title) {
 	var w = 650;
 	var h = 540;
