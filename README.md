@@ -2,6 +2,10 @@
 
 Utility functions and common data used in CareerDean. Some functions are meant to be used in the browser (With Browserify or Webpack).
 
+### Installation
+```bash
+npm install cd-common
+```
 
 ### Utility Functions
 
