@@ -1,5 +1,22 @@
+/**
+ * CareerDean Achievements
+ *
+ * Note:
+ * - Any achievement that has a required reputation below 0 means that the
+ * achievement can not be gained with reputation.
+ */
 
 module.exports = {
+
+	joinedCareerDean: {
+		rep: -1,
+		name: 'Joined CareerDean',
+		iconGreen: '/images/icons/rep-0.jpg',
+		iconDark: '/images/icons/rep-0-dark.jpg',
+		description: 'Signed up on CareerDean',
+		key: 'joinedCareerDean',
+		state: 'user'
+	},
 
 	opVision: {
 		rep: 10,
