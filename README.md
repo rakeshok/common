@@ -17,6 +17,7 @@ npm install cd-common
 - deep
 - easingPattern
 - emptyFunction
+- escapeForRegex
 - extractStopwords
 - firstWord
 - getHTML

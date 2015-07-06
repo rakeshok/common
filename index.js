@@ -8,6 +8,7 @@ exports.compactObject       = require('./util/compactObject');
 exports.deep                = require('./util/deep');
 exports.easingPattern       = require('./util/easingPattern');
 exports.emptyFunction       = require('./util/emptyFunction');
+exports.escapeForRegex      = require('./util/escapeForRegex');
 exports.extractStopwords    = require('./util/extractStopwords');
 exports.firstWord           = require('./util/firstWord');
 exports.getHTML             = require('./util/getHTML');
