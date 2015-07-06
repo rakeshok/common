@@ -160,6 +160,7 @@ var stopwordsAll = [
 	'help',
 	'hence',
 	'her',
+	'hey',
 	'here',
 	'here\'s',
 	'hers',
