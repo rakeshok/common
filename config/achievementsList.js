@@ -30,7 +30,7 @@ module.exports = {
 	},
 
 	boosterPack: {
-		rep: 50,
+		rep: 35,
 		name: 'Booster Pack',
 		iconGreen: '/images/icons/rep-50.jpg',
 		iconDark: '/images/icons/rep-50-dark.jpg',
@@ -39,7 +39,7 @@ module.exports = {
 	},
 
 	smartFilter: {
-		rep: 150,
+		rep: 275,
 		name: 'Smart Filter',
 		iconGreen: '/images/icons/rep-150.jpg',
 		iconDark: '/images/icons/rep-150-dark.jpg',
@@ -48,7 +48,7 @@ module.exports = {
 	},
 
 	friendlyNeighbors: {
-		rep: 150,
+		rep: 75,
 		name: 'Friendly Neighbors',
 		iconGreen: '/images/icons/rep-150-2.jpg',
 		iconDark: '/images/icons/rep-150-2-dark.jpg',
@@ -57,7 +57,7 @@ module.exports = {
 	},
 
 	beastMode: {
-		rep: 400,
+		rep: 150,
 		name: 'Beast Mode',
 		iconGreen: '/images/icons/rep-400.jpg',
 		iconDark: '/images/icons/rep-400-dark.jpg',
@@ -65,13 +65,31 @@ module.exports = {
 		state: 'frontpage'
 	},
 
+	endorser: {
+		rep: 500,
+		name: 'Endorser',
+		iconGreen: '/images/icons/rep-500.jpg',
+		iconDark: '/images/icons/rep-500-dark.jpg',
+		key: 'endorser',
+		state: 'frontpage'
+	},
+
 	tagger: {
-		rep: 1000,
+		rep: 850,
 		name: 'Tagger',
 		iconGreen: '/images/icons/rep-1k.jpg',
 		iconDark: '/images/icons/rep-1k-dark.jpg',
 		key: 'tagger',
 		state: 'frontpage'
+	},
+
+	swag: {
+		rep: 1337,
+		name: 'Swag',
+		iconGreen: '/images/icons/rep-1337.jpg',
+		iconDark: '/images/icons/rep-1337-dark.jpg',
+		key: 'swag',
+		state: null
 	},
 
 	teamPlayer: {
@@ -80,15 +98,6 @@ module.exports = {
 		iconGreen: '/images/icons/rep-2k.jpg',
 		iconDark: '/images/icons/rep-2k-dark.jpg',
 		key: 'teamPlayer',
-		state: 'frontpage'
-	},
-
-	amaHost: {
-		rep: 4000,
-		name: 'AMA Host',
-		iconGreen: '/images/icons/rep-4k.jpg',
-		iconDark: '/images/icons/rep-4k-dark.jpg',
-		key: 'amaHost',
 		state: 'frontpage'
 	}
 
