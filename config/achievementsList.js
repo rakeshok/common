@@ -11,9 +11,9 @@ module.exports = {
 	joinedCareerDean: {
 		rep: -1,
 		name: 'Joined CareerDean',
-		iconGreen: '/images/icons/rep-0.jpg',
-		iconDark: '/images/icons/rep-0-dark.jpg',
-		description: 'Signed up on CareerDean',
+		iconGreen: '/images/icons/achievement-joined.jpg',
+		iconDark: '/images/icons/achievement-joined-dark.jpg',
+		description: 'Unlocks all content.',
 		key: 'joinedCareerDean',
 		state: 'user'
 	},
@@ -21,10 +21,9 @@ module.exports = {
 	opVision: {
 		rep: 10,
 		name: 'OP Vision',
-		iconGreen: '/images/icons/rep-10.jpg',
-		iconDark: '/images/icons/rep-10-dark.jpg',
-		description:	'You get notifications when the \'Original Poster\' ' +
-									'appreciates your answer to their question.',
+		iconGreen: '/images/icons/achievement-op-vision.jpg',
+		iconDark: '/images/icons/achievement-op-vision-dark.jpg',
+		description: 'You now get notifications when the OP appreciates, <br />or replies to your answer <br />to their question.',
 		key: 'opVision',
 		state: 'frontpage'
 	},
@@ -32,8 +31,9 @@ module.exports = {
 	boosterPack: {
 		rep: 35,
 		name: 'Booster Pack',
-		iconGreen: '/images/icons/rep-50.jpg',
-		iconDark: '/images/icons/rep-50-dark.jpg',
+		iconGreen: '/images/icons/achievement-booster-pack.jpg',
+		iconDark: '/images/icons/achievement-booster-pack-dark.jpg',
+		description: 'You now have recommended content at the top of your feed for faster, smarter answering.',
 		key: 'boosterPack',
 		state: 'frontpage'
 	},
@@ -41,8 +41,9 @@ module.exports = {
 	smartFilter: {
 		rep: 275,
 		name: 'Smart Filter',
-		iconGreen: '/images/icons/rep-150.jpg',
-		iconDark: '/images/icons/rep-150-dark.jpg',
+		iconGreen: '/images/icons/achievement-smart-filter.jpg',
+		iconDark: '/images/icons/achievement-smart-filter-dark.jpg',
+		description: 'You now can hide posts that you’ve already answered.',
 		key: 'smartFilter',
 		state: 'user.settings'
 	},
@@ -50,8 +51,9 @@ module.exports = {
 	friendlyNeighbors: {
 		rep: 75,
 		name: 'Friendly Neighbors',
-		iconGreen: '/images/icons/rep-150-2.jpg',
-		iconDark: '/images/icons/rep-150-2-dark.jpg',
+		iconGreen: '/images/icons/achievement-friendly-neighbors.jpg',
+		iconDark: '/images/icons/achievement-friendly-neighbors-dark.jpg',
+		description: 'You now can see <br />people who are the most <br />in common with you, <br />based on discussions <br />you both participate in.',
 		key: 'friendlyNeighbors',
 		state: 'frontpage'
 	},
@@ -59,8 +61,13 @@ module.exports = {
 	beastMode: {
 		rep: 150,
 		name: 'Beast Mode',
-		iconGreen: '/images/icons/rep-400.jpg',
-		iconDark: '/images/icons/rep-400-dark.jpg',
+		iconGreen: '/images/icons/achievement-beast-mode.jpg',
+		iconDark: '/images/icons/achievement-beast-mode-dark.jpg',
+		description: 	'You now can answer questions and navigate the feed using keyboard shortcuts: <br />' +
+						'• Right arrow (next) <br />' +
+						'• Left arrow (previous) <br />' +
+						'• Enter (focus answer field) <br />' +
+						'• Cmd+Enter (post answer)',
 		key: 'beastMode',
 		state: 'frontpage'
 	},
@@ -68,8 +75,9 @@ module.exports = {
 	endorser: {
 		rep: 500,
 		name: 'Endorser',
-		iconGreen: '/images/icons/rep-500.jpg',
-		iconDark: '/images/icons/rep-500-dark.jpg',
+		iconGreen: '/images/icons/achievement-endorser.jpg',
+		iconDark: '/images/icons/achievement-endorser-dark.jpg',
+		description: 'You now can give your ’seal of approval’ to someone else’s answer.',
 		key: 'endorser',
 		state: 'frontpage'
 	},
@@ -77,8 +85,9 @@ module.exports = {
 	tagger: {
 		rep: 850,
 		name: 'Tagger',
-		iconGreen: '/images/icons/rep-1k.jpg',
-		iconDark: '/images/icons/rep-1k-dark.jpg',
+		iconGreen: '/images/icons/achievement-tagger.jpg',
+		iconDark: '/images/icons/achievement-tagger-dark.jpg',
+		description: 'You now can help your community by tagging posts with their proper topics.',
 		key: 'tagger',
 		state: 'frontpage'
 	},
@@ -86,8 +95,8 @@ module.exports = {
 	swag: {
 		rep: 1337,
 		name: 'Swag',
-		iconGreen: '/images/icons/rep-1337.jpg',
-		iconDark: '/images/icons/rep-1337-dark.jpg',
+		iconGreen: '/images/icons/achievement-swag.jpg',
+		iconDark: '/images/icons/achievement-swag-dark.jpg',
 		key: 'swag',
 		state: null
 	},
@@ -95,8 +104,9 @@ module.exports = {
 	teamPlayer: {
 		rep: 2000,
 		name: 'Team Player',
-		iconGreen: '/images/icons/rep-2k.jpg',
-		iconDark: '/images/icons/rep-2k-dark.jpg',
+		iconGreen: '/images/icons/achievement-team-player.jpg',
+		iconDark: '/images/icons/achievement-team-player-dark.jpg',
+		description: 'You now have <br />moderator powers.',
 		key: 'teamPlayer',
 		state: 'frontpage'
 	}
