@@ -45,7 +45,7 @@ module.exports = {
 		iconDark: '/images/icons/achievement-smart-filter-dark.jpg',
 		description: 'You now can hide posts that you’ve already answered.',
 		key: 'smartFilter',
-		state: 'user.settings'
+		state: 'userSettings'
 	},
 
 	friendlyNeighbors: {
