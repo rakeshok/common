@@ -25,7 +25,7 @@ module.exports = {
 		iconDark: '/images/icons/achievement-op-vision-dark.jpg',
 		description: 'You now get notifications when the OP appreciates, <br />or replies to your answer <br />to their question.',
 		key: 'opVision',
-		state: 'frontpage'
+		state: null
 	},
 
 	boosterPack: {
