@@ -22,7 +22,6 @@ npm install cd-common
 - firstWord
 - getHTML
 - getLinks
-- getSignedCookie
 - getTeaser
 - hasSameProperties
 - highlight

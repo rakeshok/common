@@ -13,7 +13,6 @@ exports.extractStopwords    = require('./util/extractStopwords');
 exports.firstWord           = require('./util/firstWord');
 exports.getHTML             = require('./util/getHTML');
 exports.getLinks            = require('./util/getLinks');
-exports.getSignedCookie     = require('./util/getSignedCookie');
 exports.getTeaser           = require('./util/getTeaser');
 exports.hasSameProperties   = require('./util/hasSameProperties');
 exports.highlight           = require('./util/highlight');
@@ -48,6 +47,3 @@ exports.stopwordsUrl        = require('./stopwords/stopwordsUrl');
 exports.emailRegex          = require('./regex/emailRegex');
 exports.objectIdRegex       = require('./regex/objectIdRegex');
 exports.urlRegex            = require('./regex/urlRegex');
-
-// Configs
-exports.achievementsList    = require('./config/achievementsList');
