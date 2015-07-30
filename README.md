@@ -31,7 +31,6 @@ npm install cd-common
 - parseJSON
 - permute
 - pluralize
-- printObject
 - pushUnique
 - randomGarbage
 - randomString
