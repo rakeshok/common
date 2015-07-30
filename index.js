@@ -1,7 +1,6 @@
 
 // Utility functions
 exports.addApostrophe       = require('./util/addApostrophe');
-exports.buildCommunityKey   = require('./util/buildCommunityKey');
 exports.buildObject         = require('./util/buildObject');
 exports.capitalize          = require('./util/capitalize');
 exports.compactObject       = require('./util/compactObject');

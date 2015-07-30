@@ -5,7 +5,6 @@ var expect = require('chai').expect;
 describe('common', function() {
 	it('should expose functions when requiring the lib', function() {
 		expect(common.addApostrophe).exist;
-		expect(common.buildCommunityKey).exist;
 		expect(common.buildObject).exist;
 	});
 
