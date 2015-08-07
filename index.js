@@ -18,6 +18,7 @@ exports.highlight           = require('./util/highlight');
 exports.isEmail             = require('./util/isEmail');
 exports.isObjectId          = require('./util/isObjectId');
 exports.isURL               = require('./util/isURL');
+exports.objectIdsToStrings  = require('./util/objectIdsToStrings');
 exports.parseJSON           = require('./util/parseJSON');
 exports.permute             = require('./util/permute');
 exports.pluralize           = require('./util/pluralize');

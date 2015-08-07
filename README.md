@@ -28,6 +28,7 @@ npm install cd-common
 - isEmail
 - isObjectId
 - isURL
+- objectIdsToStrings
 - parseJSON
 - permute
 - pluralize
