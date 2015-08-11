@@ -5,7 +5,7 @@ module.exports = function objectIdsToStrings(iterable) {
 
   for (key in iterable) {
     prop = iterable[key];
-    if (typeof prop === 'object') {
+    if (typeof prop === 'object' && prop !== null && typeof prop.length !== 'number') {
       if (isObjectId(prop)) {
         iterable[key] = prop.toString();
       } else {
