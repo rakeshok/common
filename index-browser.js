@@ -18,7 +18,6 @@ exports.highlight           = require('./util/highlight');
 exports.isEmail             = require('./util/isEmail');
 exports.isObjectId          = require('./util/isObjectId');
 exports.isURL               = require('./util/isURL');
-exports.objectIdsToStrings  = require('./util/objectIdsToStrings');
 exports.parseJSON           = require('./util/parseJSON');
 exports.permute             = require('./util/permute');
 exports.pluralize           = require('./util/pluralize');
@@ -29,6 +28,11 @@ exports.removeHTML          = require('./util/removeHTML');
 exports.removeNewlines      = require('./util/removeNewlines');
 exports.removeTrailingSlash = require('./util/removeTrailingSlash');
 exports.sanitizeUrl         = require('./util/sanitizeUrl');
+
+// Browser-only functions
+exports.getTopOffset        = require('./browser-util/getTopOffset');
+exports.openPopup           = require('./browser-util/openPopup');
+exports.smoothScroll        = require('./browser-util/smoothScroll');
 
 // Instances
 exports.emitter             = require('./instances/emitter');

@@ -3,7 +3,7 @@ var isObjectId = require('./isObjectId');
 
 module.exports = function objectIdsToStrings(obj) {
   var iterator = new RecursiveIterator(obj, 0, true);
-  var state, value;
+  var state, node;
 
   for (var item = iterator.next(); !item.done; item = iterator.next()) {
     state = item.value;
