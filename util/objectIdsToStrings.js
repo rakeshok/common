@@ -1,16 +1,15 @@
+var RecursiveIterator = require('recursive-iterator');
 var isObjectId = require('./isObjectId');
 
-module.exports = function objectIdsToStrings(iterable) {
-  var key, prop;
+module.exports = function objectIdsToStrings(obj) {
+  var iterator = new RecursiveIterator(obj, 0, true);
+  var state, value;
 
-  for (key in iterable) {
-    prop = iterable[key];
-    if (typeof prop === 'object' && prop !== null && typeof prop.length !== 'number') {
-      if (isObjectId(prop)) {
-        iterable[key] = prop.toString();
-      } else {
-        objectIdsToStrings(prop);
-      }
+  for (var item = iterator.next(); !item.done; item = iterator.next()) {
+    state = item.value;
+    node = state.node;
+    if (typeof node.length !== 'number' && isObjectId(node)) {
+      state.parent[state.key] = node.toString();
     }
   }
 };
