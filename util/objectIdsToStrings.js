@@ -8,7 +8,12 @@ module.exports = function objectIdsToStrings(obj) {
   for (var item = iterator.next(); !item.done; item = iterator.next()) {
     state = item.value;
     node = state.node;
-    if (typeof node.length !== 'number' && isObjectId(node)) {
+
+    var isObject = typeof node === 'object';
+    var isNull = node === null;
+    var isArray = node && typeof node.length === 'number';
+
+    if (isObject && !isNull && isArray && isObjectId(node)) {
       state.parent[state.key] = node.toString();
     }
   }
