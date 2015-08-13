@@ -13,7 +13,7 @@ module.exports = function objectIdsToStrings(obj) {
     var isNull = node === null;
     var isArray = node && typeof node.length === 'number';
 
-    if (isObject && !isNull && isArray && isObjectId(node)) {
+    if (isObject && !isNull && !isArray && isObjectId(node)) {
       state.parent[state.key] = node.toString();
     }
   }
