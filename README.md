@@ -45,6 +45,7 @@ npm install cd-common
 
 - getTopOffset
 - openPopup
+- selectElementContents
 - smoothScroll
 
 
