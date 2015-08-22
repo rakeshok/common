@@ -25,6 +25,7 @@ npm install cd-common
 - getTeaser
 - hasSameProperties
 - highlight
+- idEquals
 - isEmail
 - isObjectId
 - isURL

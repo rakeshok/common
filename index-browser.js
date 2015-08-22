@@ -15,6 +15,7 @@ exports.getLinks              = require('./util/getLinks');
 exports.getTeaser             = require('./util/getTeaser');
 exports.hasSameProperties     = require('./util/hasSameProperties');
 exports.highlight             = require('./util/highlight');
+exports.idEquals              = require('./util/idEquals');
 exports.isEmail               = require('./util/isEmail');
 exports.isObjectId            = require('./util/isObjectId');
 exports.isURL                 = require('./util/isURL');
