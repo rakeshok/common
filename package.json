@@ -20,6 +20,8 @@
   "dependencies": {
     "lodash": "^3.6.0",
     "recursive-iterator": "^1.0.0",
+    "standard-error": "^1.1.0",
+    "statuses": "^1.2.1",
     "striptags": "^2.0.1"
   },
   "devDependencies": {

@@ -42,3 +42,6 @@ exports.stopwordsUrl        = require('./stopwords/stopwordsUrl');
 exports.emailRegex          = require('./regex/emailRegex');
 exports.objectIdRegex       = require('./regex/objectIdRegex');
 exports.urlRegex            = require('./regex/urlRegex');
+
+//Errors
+exports.isomError            = require('./util/isomError');
